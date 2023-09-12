@@ -13,7 +13,11 @@ module.exports = ({ env }) => ({
         uploadStream: {},
         delete: {},
       },
+      "google-auth": {
+        enabled: true,
+      },
     },
   },
+
   // ...
 })
